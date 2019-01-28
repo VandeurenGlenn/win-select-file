@@ -1,0 +1,33 @@
+{
+  "name": "win-select-file",
+  "version": "1.0.0",
+  "description": "Windows OpenFileDialog Form.",
+  "main": "dist/win-select-file.js",
+  "module": "win-select-file.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "c": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandeurenglenn/win-select-file.git"
+  },
+  "keywords": [
+    "windows",
+    "select",
+    "file",
+    "dialog"
+  ],
+  "author": "Glenn Vandeuren <vandeurenglenn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vandeurenglenn/win-select-file/issues"
+  },
+  "homepage": "https://github.com/vandeurenglenn/win-select-file#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup": "^1.1.2",
+    "rollup-plugin-cleanup": "^3.1.1",
+    "rollup-plugin-terser": "^4.0.3"
+  }
+}
